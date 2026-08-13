@@ -41,7 +41,7 @@ ao comportamento real da aplicação.
 
 - **Dado que** estou autenticado com produtos no carrinho
 - **Quando** avanço pelas etapas do checkout
-- **E** informo endereço e forma de pagamento válidos
+  **E** informo endereço e forma de pagamento válidos
 - **Então** o pedido deve ser confirmado
 
 O formulário de endereço limpa os demais campos quando um deles é editado, por

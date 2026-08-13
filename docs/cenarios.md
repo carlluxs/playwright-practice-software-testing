@@ -8,10 +8,10 @@ comentários que aparecem no código.
 
 | Área | Casos | Status |
 |---|---|---|
-| Autenticação | CT-001 a CT-004 | a fazer |
-| Catálogo e busca | CT-005 a CT-008 | a fazer |
-| Carrinho | CT-009 a CT-012 | a fazer |
-| Checkout | CT-013 a CT-015 | a fazer |
+| Autenticação | CT-001 a CT-004 | automatizado |
+| Catálogo e busca | CT-005 a CT-008 | automatizado |
+| Carrinho | CT-009 a CT-012 | automatizado |
+| Checkout | CT-013 a CT-015 | automatizado |
 
 A suíte cobre a jornada completa de uma compra: entrar na conta, encontrar o
 produto, montar o carrinho e finalizar o pedido.
@@ -92,7 +92,7 @@ Referência do site:
 
 - **Dado que** estou no detalhe de um produto
 - **Quando** aumento a quantidade para 3
-- **E** adiciono o produto ao carrinho
+  **E** adiciono o produto ao carrinho
 - **Então** o carrinho deve registrar 3 unidades desse produto
 
 ## CT-011 - Deve remover um produto do carrinho
@@ -121,11 +121,11 @@ Referência do site:
 
 - **Dado que** estou na etapa de endereço do checkout
 - **Quando** tento avançar com campos obrigatórios em branco
-- **Então** devo ver as mensagens de campo obrigatório
+- **Então** o avanço deve ficar bloqueado
 
 ## CT-015 - Deve concluir a compra com dados válidos
 
 - **Dado que** estou autenticado com produtos no carrinho
 - **Quando** avanço pelas etapas do checkout
-- **E** informo endereço e forma de pagamento válidos
+  **E** informo endereço e forma de pagamento válidos
 - **Então** o pedido deve ser confirmado

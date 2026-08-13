@@ -26,7 +26,7 @@ específico do catálogo.
 
 - **Dado que** estou no detalhe de um produto
 - **Quando** aumento a quantidade para 3
-- **E** adiciono o produto ao carrinho
+  **E** adiciono o produto ao carrinho
 - **Então** o carrinho deve registrar 3 unidades desse produto
 
 A verificação vai até a tela do carrinho conferir nome e quantidade: o contador
