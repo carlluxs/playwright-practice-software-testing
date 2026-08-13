@@ -1,0 +1,22 @@
+# Dependencias instaladas pelo npm — reinstalaveis via package.json
+node_modules/
+
+# Credenciais — NUNCA versionar
+.env
+
+# Saidas de execucao do Playwright
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Logs
+npm-debug.log*
+*.log
+
+# Sistema operacional / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
